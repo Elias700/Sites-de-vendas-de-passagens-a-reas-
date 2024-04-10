@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.nacional{
+    text-align: center;
+    display: inline-block;
+}
+
+#img{
+    gap: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+
+
+

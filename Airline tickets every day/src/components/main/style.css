@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url('./plane-8616271_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabeçalho ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+li:hover{
+    color:rgb(196, 37, 37);
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ajuste{
+    padding: 140px 0 0 130px;
+}
+
+#h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px blue;
+}
+
+#span1{
+    color: rgb(196, 37, 37);
+    text-shadow: 2px 2px black;
+    
+}
+
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#botao1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 160px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+#botao1:hover{
+    background-color: rgb(22, 180, 22);
+    color: rgb(196, 37, 37);
+    text-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+    margin-left: 5px;
+}
