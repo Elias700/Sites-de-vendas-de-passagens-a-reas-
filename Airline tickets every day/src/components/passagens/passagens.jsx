@@ -77,18 +77,22 @@ function Passagens (){
             
                 .map((lugares) => (
 
-                <div key={lugares.id}>
+                <div className='internacional' key={lugares.id}>
                     
                     <p id='paragrafo_passagens'>{lugares.name}</p>
-                    <img src={lugares.img} alt="" />
+                    <img id='img1' height={'200px'} width={'200px'} src={lugares.img} alt="" />
                     <p>R${lugares.valor}</p>
                     <button>Comprar</button>
 
                 </div>
-                    
-               
 
             ))}
+
+            <footer>
+                <div>
+                    <p>Celular:  98541 - 5214</p>
+                </div>
+            </footer>
 
         </div>
 

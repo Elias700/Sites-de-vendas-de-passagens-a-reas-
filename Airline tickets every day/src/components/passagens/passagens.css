@@ -32,6 +32,18 @@
     cursor: pointer;
 }
 
+.internacional{
+    text-align: center;
+    display: inline-block; 
+}
+
+#img1{
+    gap: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-left: 70px;
+    cursor: pointer;
+}
 
 
 

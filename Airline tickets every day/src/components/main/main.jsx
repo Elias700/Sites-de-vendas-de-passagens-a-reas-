@@ -12,7 +12,7 @@ function Principal (){
             <div className="cabeçalho">
                 <ul>
                     <li>Home</li>
-                    <li>Login</li>
+                    <li onClick={() => navigate('/login')}>Login</li>
                     <li>Cadastro</li>
                     <li onClick={() => navigate('/passagens')}>Passagens</li>
                 </ul>
@@ -20,6 +20,7 @@ function Principal (){
 
             <main>
                 <div className='ajuste'>
+
                     <h1 id='h1'>Passagens aéreas com o menor preço.</h1>
 
                     <h2 id='subtitulo'>Venha conhecer a <span id='span1'>Airline Tickets Every Day</span> e tenha os melhores preços!</h2>
