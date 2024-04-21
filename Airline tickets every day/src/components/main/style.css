@@ -7,9 +7,10 @@
 }
 
 body{
-    background-image: url('./plane-8616271_1280.jpg');
+    background-image: url('https://img.freepik.com/fotos-gratis/miniatura-de-aviao-do-mapa-do-mundo-e-bloco-de-notas-em-uma-vista-de-mesa-de-madeira_169016-49914.jpg?t=st=1713701337~exp=1713704937~hmac=ef265092c12a1824713bf9c0e475e79ade0311700537c549653acaf6f26789e7&w=1380');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 150%;
+    height: 67vh;
 }
 
 .cabeçalho ul{
@@ -20,55 +21,100 @@ body{
 
 li{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
-li:hover{
-    color:rgb(196, 37, 37);
-    text-decoration: underline;
-    transition: 0.5s;
+    font-size: 35px;
+    color: #3CA6A6;
     cursor: pointer;
 }
 
+li:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
 .ajuste{
-    padding: 140px 0 0 130px;
+    padding: 101px 0 0 130px;
 }
 
 #h1{
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 2px blue;
+    font-size: 90px;
+    color: white;
+    margin-top: 50px;
 }
 
 #span1{
     color: rgb(196, 37, 37);
     text-shadow: 2px 2px black;
-    
-}
-
-#p1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
 }
 
 #subtitulo{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+    color: #3CA6A6;
+    text-shadow: 2px 2px black; 
+}
+
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 37px; 
 }
 
 #botao1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 10px 160px;
+    font-size: 30px;
+    padding: 20px 260px;
     border-radius: 20px;
     cursor: pointer;
-    
+    background-color: #3CA6A6;
+    color: white;
 }
 
 #botao1:hover{
-    background-color: rgb(22, 180, 22);
+    background-color: #024959;
     color: rgb(196, 37, 37);
     text-shadow: 2px 2px 2px black;
     transition: 0.5s;
     margin-left: 5px;
 }
+
+
+.roda-pe{
+    background-color: rgba(0, 0, 0, 0.282);
+    height: 98px;
+    margin-top: 276px;
+    padding: 40px;
+}
+
+.informacao{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#p2{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+}
+
+#p3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+svg{
+    height: 70px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.svg{
+    display: flex;
+    margin-left: 1020px;
+    gap: 15px;
+}
+
